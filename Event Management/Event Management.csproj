@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E89853F-7AF9-4B6B-BE54-A0E52D9B0B3D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Event_Management</RootNamespace>
+    <AssemblyName>Event Management</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="bday\1.jpg" />
+    <Content Include="bday\100pcs-lot-10-inch-1-8g-High-quality-Pearl-balloon-Romantic-Pink-Red-White-color-Wedding.jpg_640x640.jpg" />
+    <Content Include="bday\1_1.jpg" />
+    <Content Include="bday\20161005194349_95998.jpg" />
+    <Content Include="bday\21914896623_3153afc68d.jpg" />
+    <Content Include="bday\24pcs-balloon-cartoon-happy-Birthday-party-Arrangement-ball-Letter-1-Angel-baby-Flying-Horse-foil-Balloons.jpg" />
+    <Content Include="bday\37584337-2174-41a5-a584-9ea70bef3377.jpg" />
+    <Content Include="bday\50pcs-Birthday-Party-Balloon-arrangement-Balloon-rain-tassel-marry-Marriage-room-Party-venue-Decor-Free-shipping.jpg_640x640.jpg" />
+    <Content Include="bday\5955770dN98cc3135.jpg" />
+    <Content Include="bday\5pcs-24-inch-macaron-balloon-candy-color-creative-birthday-party-arrangement-arches-balloon-decoration-wedding-supplies.jpg_q50.jpg" />
+    <Content Include="bday\602aedc0cb7aca4414cb859fad74ddc6.jpg" />
+    <Content Include="bday\61M-weajYgL.jpg" />
+    <Content Include="bday\activities-games-500x500.jpg" />
+    <Content Include="bday\bestbday.jpg" />
+    <Content Include="bday\birthday-4.jpg" />
+    <Content Include="bday\birthday-cake-hd-images-7.jpg" />
+    <Content Include="bday\birthday-party-event-management-500x500.jpeg" />
+    <Content Include="bday\Birthday.jpg" />
+    <Content Include="bday\birthday1.jpg" />
+    <Content Include="bday\candylandbuffet.jpg" />
+    <Content Include="bday\Dance Party.jpg" />
+    <Content Include="bday\FBH141202-wedding-supplies-advertising-campaign-birthday-party-arrangement-aluminium-coating-letters-balloon %281%29.jpg" />
+    <Content Include="bday\FBH141202-wedding-supplies-advertising-campaign-birthday-party-arrangement-aluminium-coating-letters-balloon.jpg" />
+    <Content Include="bday\frozen-birthday-party.jpg" />
+    <Content Include="bday\IMG_3165-001.jpg" />
+    <Content Include="bday\in-house-birthday-party-500x500.jpg" />
+    <Content Include="bday\kiddie.jpg" />
+    <Content Include="bday\location50.jpg" />
+    <Content Include="bday\Make-appropriate-seating-arrangements.jpg" />
+    <Content Include="bday\maxresdefault %281%29.jpg" />
+    <Content Include="bday\maxresdefault.jpg" />
+    <Content Include="bday\photo-1544155891-969f15a055d3.jpg" />
+    <Content Include="bday\photo-1544155892-b2b6c64204fc.jpg" />
+    <Content Include="bday\summerbithdaypartiesforkids21.jpg" />
+    <Content Include="bday\TB2Rixvd1uSBuNjSsplXXbe8pXa_!!36219283.jpg" />
+    <Content Include="bday\TB2Sv2TyCBYBeNjy0FeXXbnmFXa_!!2254802500.jpg" />
+    <Content Include="bday\Wedding Hall.jpg" />
+    <Content Include="bday\Wedding.jpg" />
+    <Content Include="birthday\1.jpg" />
+    <Content Include="birthday\100pcs-lot-10-inch-1-8g-High-quality-Pearl-balloon-Romantic-Pink-Red-White-color-Wedding.jpg_640x640.jpg" />
+    <Content Include="birthday\100pcs-lot-10-Macaron-Balloon-Candy-Color-Creative-Birthday-Party-Arrangement-Arches-Balloon-Decoration-Knot-Wedding.jpg" />
+    <Content Include="birthday\1_1.jpg" />
+    <Content Include="birthday\20161005194349_95998.jpg" />
+    <Content Include="birthday\21914896623_3153afc68d.jpg" />
+    <Content Include="birthday\24pcs-balloon-cartoon-happy-Birthday-party-Arrangement-ball-Letter-1-Angel-baby-Flying-Horse-foil-Balloons.jpg" />
+    <Content Include="birthday\37584337-2174-41a5-a584-9ea70bef3377.jpg" />
+    <Content Include="birthday\50pcs-Birthday-Party-Balloon-arrangement-Balloon-rain-tassel-marry-Marriage-room-Party-venue-Decor-Free-shipping.jpg_640x640.jpg" />
+    <Content Include="birthday\5955770dN98cc3135.jpg" />
+    <Content Include="birthday\5pcs-24-inch-macaron-balloon-candy-color-creative-birthday-party-arrangement-arches-balloon-decoration-wedding-supplies.jpg_q50.jpg" />
+    <Content Include="birthday\602aedc0cb7aca4414cb859fad74ddc6.jpg" />
+    <Content Include="birthday\61M-weajYgL.jpg" />
+    <Content Include="birthday\activities-games-500x500.jpg" />
+    <Content Include="birthday\bestbday.jpg" />
+    <Content Include="birthday\birthday-4.jpg" />
+    <Content Include="birthday\birthday-cake-hd-images-7.jpg" />
+    <Content Include="birthday\birthday-party-event-management-500x500.jpeg" />
+    <Content Include="birthday\birthday1.jpg" />
+    <Content Include="birthday\candylandbuffet.jpg" />
+    <Content Include="birthday\FBH141202-wedding-supplies-advertising-campaign-birthday-party-arrangement-aluminium-coating-letters-balloon %281%29.jpg" />
+    <Content Include="birthday\FBH141202-wedding-supplies-advertising-campaign-birthday-party-arrangement-aluminium-coating-letters-balloon.jpg" />
+    <Content Include="birthday\frozen-birthday-party.jpg" />
+    <Content Include="birthday\IMG_3165-001.jpg" />
+    <Content Include="birthday\in-house-birthday-party-500x500.jpg" />
+    <Content Include="birthday\kiddie.jpg" />
+    <Content Include="birthday\location50.jpg" />
+    <Content Include="birthday\Make-appropriate-seating-arrangements.jpg" />
+    <Content Include="birthday\maxresdefault %281%29.jpg" />
+    <Content Include="birthday\maxresdefault.jpg" />
+    <Content Include="birthday\photo-1544155891-969f15a055d3.jpg" />
+    <Content Include="birthday\photo-1544155892-b2b6c64204fc.jpg" />
+    <Content Include="birthday\summerbithdaypartiesforkids21.jpg" />
+    <Content Include="birthday\TB2Rixvd1uSBuNjSsplXXbe8pXa_!!36219283.jpg" />
+    <Content Include="birthday\TB2Sv2TyCBYBeNjy0FeXXbnmFXa_!!2254802500.jpg" />
+    <Content Include="Booking.aspx" />
+    <Content Include="bride\Capture.PNG" />
+    <Content Include="bride\Capture2.PNG" />
+    <Content Include="bride\Capture3.PNG" />
+    <Content Include="bride\Capture4.PNG" />
+    <Content Include="bride\food.png" />
+    <Content Include="bride\home.PNG" />
+    <Content Include="bride\hotel.png" />
+    <Content Include="bride\images %2841%29.jpg" />
+    <Content Include="captchaimg\captcha1.png" />
+    <Content Include="captchaimg\captcha2.png" />
+    <Content Include="captchaimg\captcha3.png" />
+    <Content Include="captchaimg\captcha4.png" />
+    <Content Include="data1\images\birthday.jpg" />
+    <Content Include="data1\images\cocolates.jpg" />
+    <Content Include="data1\images\dance_party.jpg" />
+    <Content Include="data1\images\hindu_wedding.jpg" />
+    <Content Include="data1\images\party_hall.jpg" />
+    <Content Include="data1\images\wedding.jpg" />
+    <Content Include="data1\tooltips\birthday.jpg" />
+    <Content Include="data1\tooltips\cocolates.jpg" />
+    <Content Include="data1\tooltips\dance_party.jpg" />
+    <Content Include="data1\tooltips\hindu_wedding.jpg" />
+    <Content Include="data1\tooltips\party_hall.jpg" />
+    <Content Include="data1\tooltips\wedding.jpg" />
+    <Content Include="engine1\arrows.png" />
+    <Content Include="engine1\bullet.png" />
+    <Content Include="engine1\jquery.js" />
+    <Content Include="engine1\pause.png" />
+    <Content Include="engine1\play.png" />
+    <Content Include="engine1\script.js" />
+    <Content Include="engine1\style.css" />
+    <Content Include="engine1\style.mod.css" />
+    <Content Include="engine1\triangle.png" />
+    <Content Include="engine1\wowslider.js" />
+    <Content Include="engine1\wowslider.mod.js" />
+    <Content Include="img\8622413-birthday.jpg" />
+    <Content Include="img\download.jpg" />
+    <Content Include="img\images %2812%29.jpg" />
+    <Content Include="img\images %2836%29.jpg" />
+    <Content Include="img\images %2841%29.jpg" />
+    <Content Include="img\images %285%29.jpeg" />
+    <Content Include="img\images %2851%29.jpg" />
+    <Content Include="img\IMG_20190402_150429.jpg" />
+    <Content Include="img\wedding-text.jpg" />
+    <Content Include="Account\pictures\download %281%29.jpg" />
+    <Content Include="Account\pictures\download %2810%29.jpg" />
+    <Content Include="Account\pictures\download %2811%29.jpg" />
+    <Content Include="Account\pictures\download %2812%29.jpg" />
+    <Content Include="Account\pictures\download %2813%29.jpg" />
+    <Content Include="Account\pictures\download %2814%29.jpg" />
+    <Content Include="Account\pictures\download %2815%29.jpg" />
+    <Content Include="Account\pictures\download %2816%29.jpg" />
+    <Content Include="Account\pictures\download %2817%29.jpg" />
+    <Content Include="Account\pictures\download %2818%29.jpg" />
+    <Content Include="Account\pictures\download %2819%29.jpg" />
+    <Content Include="Account\pictures\download %282%29.jpg" />
+    <Content Include="Account\pictures\download %283%29.jpg" />
+    <Content Include="Account\pictures\download %284%29.jpg" />
+    <Content Include="Account\pictures\download %285%29.jpg" />
+    <Content Include="Account\pictures\download %286%29.jpg" />
+    <Content Include="Account\pictures\download %287%29.jpg" />
+    <Content Include="Account\pictures\download %288%29.jpg" />
+    <Content Include="Account\pictures\download %289%29.jpg" />
+    <Content Include="Account\pictures\download.jpg" />
+    <Content Include="Account\pictures\event-management-companies.jpg" />
+    <Content Include="Account\pictures\images %281%29.jpg" />
+    <Content Include="Account\pictures\images %281%29.png" />
+    <Content Include="Account\pictures\images %2810%29.jpg" />
+    <Content Include="Account\pictures\images %2811%29.jpg" />
+    <Content Include="Account\pictures\images %2812%29.jpg" />
+    <Content Include="Account\pictures\images %2813%29.jpg" />
+    <Content Include="Account\pictures\images %2814%29.jpg" />
+    <Content Include="Account\pictures\images %2815%29.jpg" />
+    <Content Include="Account\pictures\images %2816%29.jpg" />
+    <Content Include="Account\pictures\images %2817%29.jpg" />
+    <Content Include="Account\pictures\images %2818%29.jpg" />
+    <Content Include="Account\pictures\images %2819%29.jpg" />
+    <Content Include="Account\pictures\images %282%29.jpg" />
+    <Content Include="Account\pictures\images %2820%29.jpg" />
+    <Content Include="Account\pictures\images %2821%29.jpg" />
+    <Content Include="Account\pictures\images %2822%29.jpg" />
+    <Content Include="Account\pictures\images %2823%29.jpg" />
+    <Content Include="Account\pictures\images %2824%29.jpg" />
+    <Content Include="Account\pictures\images %2825%29.jpg" />
+    <Content Include="Account\pictures\images %2826%29.jpg" />
+    <Content Include="Account\pictures\images %2827%29.jpg" />
+    <Content Include="Account\pictures\images %2828%29.jpg" />
+    <Content Include="Account\pictures\images %2829%29.jpg" />
+    <Content Include="Account\pictures\images %283%29.jpg" />
+    <Content Include="Account\pictures\images %2830%29.jpg" />
+    <Content Include="Account\pictures\images %2831%29.jpg" />
+    <Content Include="Account\pictures\images %2832%29.jpg" />
+    <Content Include="Account\pictures\images %2833%29.jpg" />
+    <Content Include="Account\pictures\images %2834%29.jpg" />
+    <Content Include="Account\pictures\images %2835%29.jpg" />
+    <Content Include="Account\pictures\images %2836%29.jpg" />
+    <Content Include="Account\pictures\images %2837%29.jpg" />
+    <Content Include="Account\pictures\images %2838%29.jpg" />
+    <Content Include="Account\pictures\images %2839%29.jpg" />
+    <Content Include="Account\pictures\images %284%29.jpg" />
+    <Content Include="Account\pictures\images %2840%29.jpg" />
+    <Content Include="Account\pictures\images %2841%29.jpg" />
+    <Content Include="Account\pictures\images %2842%29.jpg" />
+    <Content Include="Account\pictures\images %2843%29.jpg" />
+    <Content Include="Account\pictures\images %2844%29.jpg" />
+    <Content Include="Account\pictures\images %2845%29.jpg" />
+    <Content Include="Account\pictures\images %2846%29.jpg" />
+    <Content Include="Account\pictures\images %2847%29.jpg" />
+    <Content Include="Account\pictures\images %2848%29.jpg" />
+    <Content Include="Account\pictures\images %2849%29.jpg" />
+    <Content Include="Account\pictures\images %285%29.jpg" />
+    <Content Include="Account\pictures\images %2850%29.jpg" />
+    <Content Include="Account\pictures\images %2851%29.jpg" />
+    <Content Include="Account\pictures\images %2852%29.jpg" />
+    <Content Include="Account\pictures\images %2853%29.jpg" />
+    <Content Include="Account\pictures\images %2854%29.jpg" />
+    <Content Include="Account\pictures\images %2855%29.jpg" />
+    <Content Include="Account\pictures\images %2856%29.jpg" />
+    <Content Include="Account\pictures\images %2857%29.jpg" />
+    <Content Include="Account\pictures\images %2858%29.jpg" />
+    <Content Include="Account\pictures\images %2859%29.jpg" />
+    <Content Include="Account\pictures\images %286%29.jpg" />
+    <Content Include="Account\pictures\images %2860%29.jpg" />
+    <Content Include="Account\pictures\images %2861%29.jpg" />
+    <Content Include="Account\pictures\images %2862%29.jpg" />
+    <Content Include="Account\pictures\images %2863%29.jpg" />
+    <Content Include="Account\pictures\images %2864%29.jpg" />
+    <Content Include="Account\pictures\images %2865%29.jpg" />
+    <Content Include="Account\pictures\images %2866%29.jpg" />
+    <Content Include="Account\pictures\images %2867%29.jpg" />
+    <Content Include="Account\pictures\images %2868%29.jpg" />
+    <Content Include="Account\pictures\images %2869%29.jpg" />
+    <Content Include="Account\pictures\images %287%29.jpg" />
+    <Content Include="Account\pictures\images %2870%29.jpg" />
+    <Content Include="Account\pictures\images %288%29.jpg" />
+    <Content Include="Account\pictures\images %289%29.jpg" />
+    <Content Include="Account\pictures\images.jpg" />
+    <Content Include="Account\pictures\images.png" />
+    <Content Include="Account\pictures\imgres.htm" />
+    <Content Include="Account\pictures\IMG_20190306_135311.jpg" />
+    <Content Include="Account\pictures\piper-wedding-services.jpg" />
+    <Content Include="Account\pictures\pragati.......gif" />
+    <Content Include="INDIAN.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Traditional.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="login.aspx" />
+    <Content Include="registration.aspx" />
+    <Content Include="premiumbday.aspx" />
+    <Content Include="Manager.aspx" />
+    <Content Include="basicbday.aspx" />
+    <Content Include="Afterlogin.aspx" />
+    <Content Include="blog.aspx" />
+    <Content Include="mainhome.aspx" />
+    <Content Include="viewfeedback.aspx" />
+    <Content Include="contactus.aspx" />
+    <Content Include="birthdayGallery.aspx" />
+    <Content Include="Aboutus.aspx" />
+    <Content Include="Weddingservices.aspx" />
+    <Content Include="WebForm13.aspx" />
+    <Content Include="DESTINATION.aspx" />
+    <Content Include="birthdayfome.aspx" />
+    <Content Include="goldbday.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="Wedding.aspx" />
+    <Content Include="weddingGallery.aspx" />
+    <Content Include="wedding\1420707987919.jpeg" />
+    <Content Include="wedding\2015-07-17_18.38.02_0.jpg" />
+    <Content Include="wedding\arrangement-2.jpg" />
+    <Content Include="wedding\bree-and-freddie-rockrose-floral-1525965662.jpg" />
+    <Content Include="wedding\c.jpg" />
+    <Content Include="wedding\Capture.jpg" />
+    <Content Include="wedding\DEnPqFoU0AIaAwq.jpg" />
+    <Content Include="wedding\DSC_1798.jpg" />
+    <Content Include="wedding\DSC_2415.jpg" />
+    <Content Include="wedding\haldi.png" />
+    <Content Include="wedding\Hindu Wedding.jpg" />
+    <Content Include="wedding\images.jpg" />
+    <Content Include="wedding\img-20180605-wa0036-largejpg.jpg" />
+    <Content Include="wedding\indian.png" />
+    <Content Include="wedding\lead221.jpg" />
+    <Content Include="wedding\Mehndi.png" />
+    <Content Include="wedding\mp100.jpg" />
+    <Content Include="wedding\NewFolder1\images %2858%29.jpg" />
+    <Content Include="wedding\NewFolder1\images %2867%29.jpg" />
+    <Content Include="wedding\rajasthan-wedding-destination.jpg" />
+    <Content Include="wedding\start-event-planning-service.jpg" />
+    <Content Include="wedding\W19-5120.jpg" />
+    <Content Include="wedding\wedding-06.jpg" />
+    <Content Include="wedding\wedding-arrangements %281%29.jpg" />
+    <Content Include="wedding\wedding-arrangements.jpg" />
+    <Content Include="wedding\wedding-photoshoot_2011_david-woodings-bipp_173357.tmb-img-1824.jpg" />
+    <Content Include="wedding\wedding-small-1.jpg" />
+    <Content Include="wedding\wedding-table.jpg" />
+    <Content Include="wedding\wedding.jpg" />
+    <Content Include="wedding\wedding1_thinkstockphotos.jpg" />
+    <Content Include="wedding\wedding\1420707987919.jpeg" />
+    <Content Include="wedding\wedding\bree-and-freddie-rockrose-floral-1525965662.jpg" />
+    <Content Include="wedding\wedding\download %2811%29.jpg" />
+    <Content Include="wedding\wedding\DSC_2415.jpg" />
+    <Content Include="wedding\wedding\Hindu Wedding.jpg" />
+    <Content Include="wedding\wedding\images %2812%29.jpg" />
+    <Content Include="wedding\wedding\images %2818%29.jpg" />
+    <Content Include="wedding\wedding\images %2829%29.jpg" />
+    <Content Include="wedding\wedding\images %2836%29.jpg" />
+    <Content Include="wedding\wedding\images %284%29.jpg" />
+    <Content Include="wedding\wedding\images %2845%29.jpg" />
+    <Content Include="wedding\wedding\images.jpg" />
+    <Content Include="wedding\wedding\img-20180605-wa0036-largejpg.jpg" />
+    <Content Include="wedding\wedding\lead221.jpg" />
+    <Content Include="wedding\wedding\mp100.jpg" />
+    <Content Include="wedding\wedding\rajasthan-wedding-destination.jpg" />
+    <Content Include="wedding\wedding\wedding-06.jpg" />
+    <Content Include="wedding\wedding\wedding-arrangements %281%29.jpg" />
+    <Content Include="wedding\wedding\wedding-arrangements.jpg" />
+    <Content Include="wedding\wedding\wedding-small-1.jpg" />
+    <Content Include="wedding\wedding\wedding-table.jpg" />
+    <Content Include="wedding\wedding\wedding.jpg" />
+    <Content Include="wedding\wedding\wedding_event.jpg" />
+    <Content Include="wedding\wedding_event.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.aspx.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Booking.aspx.designer.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="INDIAN.aspx.cs">
+      <DependentUpon>INDIAN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="INDIAN.aspx.designer.cs">
+      <DependentUpon>INDIAN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Traditional.aspx.cs">
+      <DependentUpon>Traditional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Traditional.aspx.designer.cs">
+      <DependentUpon>Traditional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="premiumbday.aspx.cs">
+      <DependentUpon>premiumbday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="premiumbday.aspx.designer.cs">
+      <DependentUpon>premiumbday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.aspx.cs">
+      <DependentUpon>Manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager.aspx.designer.cs">
+      <DependentUpon>Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="basicbday.aspx.cs">
+      <DependentUpon>basicbday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basicbday.aspx.designer.cs">
+      <DependentUpon>basicbday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Afterlogin.aspx.cs">
+      <DependentUpon>Afterlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Afterlogin.aspx.designer.cs">
+      <DependentUpon>Afterlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mainhome.aspx.cs">
+      <DependentUpon>mainhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mainhome.aspx.designer.cs">
+      <DependentUpon>mainhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewfeedback.aspx.designer.cs">
+      <DependentUpon>viewfeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactus.aspx.cs">
+      <DependentUpon>contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactus.aspx.designer.cs">
+      <DependentUpon>contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="birthdayGallery.aspx.cs">
+      <DependentUpon>birthdayGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="birthdayGallery.aspx.designer.cs">
+      <DependentUpon>birthdayGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aboutus.aspx.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aboutus.aspx.designer.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Weddingservices.aspx.cs">
+      <DependentUpon>Weddingservices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Weddingservices.aspx.designer.cs">
+      <DependentUpon>Weddingservices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm13.aspx.cs">
+      <DependentUpon>WebForm13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm13.aspx.designer.cs">
+      <DependentUpon>WebForm13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DESTINATION.aspx.cs">
+      <DependentUpon>DESTINATION.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DESTINATION.aspx.designer.cs">
+      <DependentUpon>DESTINATION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="birthdayfome.aspx.cs">
+      <DependentUpon>birthdayfome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="birthdayfome.aspx.designer.cs">
+      <DependentUpon>birthdayfome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="goldbday.aspx.cs">
+      <DependentUpon>goldbday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="goldbday.aspx.designer.cs">
+      <DependentUpon>goldbday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wedding.aspx.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wedding.aspx.designer.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weddingGallery.aspx.cs">
+      <DependentUpon>weddingGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weddingGallery.aspx.designer.cs">
+      <DependentUpon>weddingGallery.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wedding\wedding-5 jpg.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bday\5b3dd8f7Nff19c506.jpg.dpg" />
+    <None Include="bday\TB1kDn8pVuWBuNjSspnYXF1NVXa_M2.SS2" />
+    <None Include="bday\TB1rJFnXb3XS1JjSZFFYXIvupXa_M2.SS2" />
+    <None Include="birthday\5b3dd8f7Nff19c506.jpg.dpg" />
+    <None Include="birthday\TB1kDn8pVuWBuNjSspnYXF1NVXa_M2.SS2" />
+    <None Include="birthday\TB1rJFnXb3XS1JjSZFFYXIvupXa_M2.SS2" />
+    <None Include="wedding\1485498619_595x400.webp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="feedbackfolder\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6215</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

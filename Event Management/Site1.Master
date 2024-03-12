@@ -1,0 +1,323 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Event_Management.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css" xml:lang="aa">
+        .style1
+        {
+            width: 100%;
+          background-color:Gray;
+          
+          
+        }
+       body
+       {
+           height:224px;
+           
+           background-position:center;
+           background-repeat:no-repeat;
+           background-size:cover;
+         
+          width:113%;
+       }
+        *
+        {
+            margin:0px;
+            padding:0px;
+            }
+        #home
+        {
+        display: block;
+    
+           
+        display: list-item;  
+        float: left;
+            width: 143px;
+            margin-left: 0px;
+             margin-left: 47px;
+        }
+        #aboutus
+        {
+            display: block;
+         
+        display: list-item;
+        float: left;
+            width: 167px;
+             margin-left: 47px;
+        }
+            #login
+        {
+            display: block;
+         
+        display: list-item;
+        float: left;
+            width: 153px;
+             margin-left: 7px;
+        }
+            #services
+        {
+            display: block;
+      
+        display: list-item;
+        float: left;
+            width: 180px;
+             margin-left: 47px;
+        }
+            #gallery
+        {
+            display: block;
+       
+        display: list-item; 
+        float: left;
+            width: 153px;
+             margin-left: 47px;
+        }
+            #blog
+        {
+            display: block;
+     
+        display: list-item; 
+        float: left;
+            width: 124px;
+            margin-left: 47px;
+        }
+            #contactus
+        {
+            display: block;
+        
+        display: list-item; 
+        float: left;
+            width: 134px;
+             margin-left: 47px;
+        }
+        
+    #servicesub
+    {
+        display:list-item;
+       
+    }
+    #servicesub ul ul
+    {
+        position:absolute;
+        display:none;
+        }
+        #servicesub ul li 
+        {
+            background-color:Gray;
+            border:1px;
+            width:100px;
+            height:50px;
+            line-height:35px;
+            text-align:center;
+            float:left;
+            position:relative;
+            }
+ #service:hover #servicesub 
+    {
+        display: block;
+        color: black;
+        list-style-type:none;
+        
+        display:table-row;
+        width: 30px;
+       /* margin-top: -330px;
+        margin-left: -25px;*/
+        list-style-type:none;
+        
+    }
+    #gallerysub
+    {
+        display:list-item;
+       
+    }
+    #gallery ul ul
+    {
+        position:absolute;
+        display:none;
+        }
+        #gallerysub ul li 
+        {
+            background-color:Gray;
+            border:1px;
+            width:100px;
+            height:20px;
+            line-height:35px;
+            text-align:center;
+            float:left;
+            position:relative;
+            }
+ #gallery:hover #gallerysub
+    {
+        display: block;
+        color: black;
+        display:list-item;
+        /*display:table-row;*/
+        width: 30px;
+        margin-top: -33px;
+        margin-left: -25px;
+        list-style-type:none;
+    }
+        .style5
+        {
+            height: 43px;
+        }
+        #menu ul
+        {
+            list-style:none;
+            height: 44px;
+            width: 1497px;
+        }
+        #menu ul li
+        {
+            border-style: none;
+            border-color: inherit;
+            border-width: 16px;
+            background-color:Silver;
+            text-align:center;
+            height:35px;
+            width:126px;
+            line-height:35px;
+            position:relative;
+            top: 7px;
+            left: 123px;
+        }
+        #menu ul li a
+        {
+            text-decoration:none;
+            color:White;
+            display:block;
+            z-index: 1;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            height: 35px;
+            width: 128px;
+        }
+         #menu ul li a:hover
+         {
+             background-color:Red;
+         }
+         #menu ul ul 
+         {
+             position:absolute;
+             display:none;
+             }
+             #menu ul li:hover > ul
+             {
+                 display:block;
+                 }
+            
+        .style9
+        {
+        }
+            
+        .style10
+        {
+            width: 1351px;
+        }
+        .style11
+        {
+        }
+            
+    </style>
+    
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+
+</head>
+<body background="bride/images (41).jpg">
+    <form id="form1" runat="server">
+    <table class="style1">
+        <tr>
+        
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/birthday.jpg" alt="Birthday" title="Birthday" id="wows1_0"/></li>
+		<li><img src="data1/images/cocolates.jpg" alt="Cocolates" title="Cocolates" id="wows1_1"/></li>
+		<li><img src="data1/images/dance_party.jpg" alt="Dance Party" title="Dance Party" id="wows1_2"/></li>
+		<li><img src="data1/images/hindu_wedding.jpg" alt="Hindu Wedding" title="Hindu Wedding" id="wows1_3"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/party_hall.jpg" alt="css slider" title="Party Hall" id="wows1_4"/></a></li>
+		<li><img src="data1/images/wedding.jpg" alt="wedding" title="wedding" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Birthday"><span><img src="data1/tooltips/birthday.jpg" alt="Birthday"/>1</span></a>
+		<a href="#" title="Cocolates"><span><img src="data1/tooltips/cocolates.jpg" alt="Cocolates"/>2</span></a>
+		<a href="#" title="Dance Party"><span><img src="data1/tooltips/dance_party.jpg" alt="Dance Party"/>3</span></a>
+		<a href="#" title="Hindu Wedding"><span><img src="data1/tooltips/hindu_wedding.jpg" alt="Hindu Wedding"/>4</span></a>
+		<a href="#" title="Party Hall"><span><img src="data1/tooltips/party_hall.jpg" alt="Party Hall"/>5</span></a>
+		<a href="#" title="wedding"><span><img src="data1/tooltips/wedding.jpg" alt="wedding"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+
+<td class="style11" rowspan="2">
+                <asp:MultiView ID="MultiView1" runat="server" 
+                    onactiveviewchanged="MultiView1_ActiveViewChanged1">
+                    <asp:View ID="View1" runat="server" EnableTheming="False" 
+                        EnableViewState="False">
+                        <asp:Button ID="Button3" runat="server" onclick="Button3_Click1" Text="LOGIN" 
+                            BackColor="#999999" ForeColor="White" Height="49px" Width="1518px" />
+                    </asp:View>
+                    <asp:View ID="View2" runat="server">
+                        <asp:Button ID="Button4" runat="server" onclick="Button4_Click" Text="LOGOUT" 
+                            BackColor="#999999" ForeColor="White" Height="42px" Width="1520px" />
+                    </asp:View>
+                    //<br/>
+                </asp:MultiView>
+            <div id="menu">
+            <ul>
+            <li id="home"><a href="home.aspx">HOME</a></li>
+            <li id="aboutus"><a href="Aboutus.aspx">ABOUT US</a></li>
+            <li id="services"><a href="mainhome.aspx">SERVICES</a>
+              <ul id="servicesub">
+              <li></li>
+              <li><a href="Weddingservices.aspx">Wedding</a></li>
+                                  <li><a href="birthdayfome.aspx">Birthday</a></li>
+              </ul>
+            </li>
+            <li id="gallery"><a href="mainhome.aspx">GALLERY</a>
+            <ul id="subgallery"><li></li>
+            <li><a href="WeddingGallery.aspx">Wedding Gallery</a></li>
+                                  <li><a href="birthdaygallery.aspx">Birthday Gallery</a></li>
+                                  </ul></li>
+            <li id="blog"><a href="blog.aspx">BLOG</a></li>
+            <li id="contactus"><a href="contactus.aspx">CONTACT US</a></li>
+            </nav>
+                &nbsp;</td>
+
+            <td class="style5">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style9">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <p>
+                        <br />
+                    </p>
+                    <table class="style1">
+                        
+                        </table>
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td class="style11">
+                </td>
+            <td>
+                </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
